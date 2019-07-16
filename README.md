@@ -23,4 +23,4 @@ Ansible playbooks sometimes require extra dependencies to operate correctly. Thi
  * python-cryptography
  * python-junitxml
 
-This dependency set will allow you to use the image as part of CI builds, testing ansible playbooks and capturing their output as Junit results via (junit callback plugin)[https://docs.ansible.com/ansible/2.5/plugins/callback/junit.html]. Similarly, these dependencies will allow you to run most basic Openshift ansible playbooks for general system administration of an Openshift cluster.
+This dependency set will allow you to use the image as part of CI builds, testing ansible playbooks and capturing their output as Junit results via [junit callback plugin](https://docs.ansible.com/ansible/2.5/plugins/callback/junit.html). Similarly, these dependencies will allow you to run most basic Openshift ansible playbooks for general system administration of an Openshift cluster.
